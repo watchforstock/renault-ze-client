@@ -1,5 +1,5 @@
 {
-  "name": "ze-services-client",
+  "name": "renault-ze-client",
   "version": "0.1.0",
   "description": "A client for accessing the Renault ZE Services API",
   "main": "lib/index.js",
@@ -10,21 +10,25 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["renault"],
-  "files": ["lib/**/*"],
+  "keywords": [
+    "renault"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
   "author": "watchforstock",
   "license": "apache2",
   "dependencies": {
     "es6-promise": "^4.2.5",
-    "isomorphic-fetch": "^2.2.1",
-    "ts-node": "^7.0.1"
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
+    "ts-node": "^7.0.1",
     "prettier": "^1.15.3",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
