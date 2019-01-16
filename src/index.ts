@@ -44,7 +44,7 @@ interface ILoginResponse {
   user: IUserResponse;
 }
 
-export class ZEServices {
+export default class ZEServices {
   public token: string = '';
   public vin: string = '';
 
