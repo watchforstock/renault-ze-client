@@ -1,6 +1,6 @@
 {
   "name": "renault-ze-client",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A client for accessing the Renault ZE Services API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
